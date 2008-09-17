@@ -10,7 +10,7 @@ def copy(text):
         outf = os.popen("pbcopy", "w")
         outf.write(text)
         outf.close()
-    elif sys.platform == "win32":
+    elif platform == "win32":
         import win32clipboard as w
         import win32con
         w.OpenClipboard()
