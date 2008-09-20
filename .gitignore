@@ -1,0 +1,4 @@
+*.pyc
+Facilis.egg-info
+build
+dist

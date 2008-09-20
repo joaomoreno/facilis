@@ -46,9 +46,9 @@ class CLI(object):
                 self.__printHelp()
             elif argv[0] == 'set':
                 self.__set(argv)
-            elif self.app.debug and argv[0] == 'db':
-                print self.app.db.file2url
-                print self.app.db.url2file
+            #elif self.app.debug and argv[0] == 'db':
+            #    print self.app.db.file2url
+            #    print self.app.db.url2file
             else:
                 self.__addFile(f)
         
