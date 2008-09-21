@@ -2,7 +2,7 @@
 #  main.py
 #  Facilis
 #
-#  Created by Jo‹o Moreno on 9/21/08.
+#  Created by Joao Moreno on 9/21/08.
 #  Copyright __MyCompanyName__ 2008. All rights reserved.
 #
 

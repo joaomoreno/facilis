@@ -7,17 +7,12 @@ from urllib2 import urlopen, HTTPError
 from re import search
 from web import ServerHandler
 from db import FilesDatabase
-from misc import NullDevice
+from misc import PortInUse
 
 class FacilisApp(object):
     
-    def __init__(self, Gui, debug = False):
+    def __init__(self):
         """Load options and start app."""
-        
-        self.debug = debug
-        # Censor the error stream
-        if not debug:
-            sys.stderr = NullDevice()
         
         # Load configuration stuff
         self.configFile = self.__configFile()
@@ -29,16 +24,16 @@ class FacilisApp(object):
         self.server = ServerHandler(self, self.config['port'])
         
         # Load interface
-        self.interface = Gui(self)
+        #self.interface = Gui(self)
     
     def start(self):
         """Starts the application."""
         
         # Start the server (threaded)
         self.server.start()
-        
-        # Start the interface
-        self.interface.start()
+        self.server.join(0.5)
+        if not self.server.isAlive():
+            raise PortInUse, self.config['port']
     
     def kill(self):
         """Called by the interface to kill the application."""

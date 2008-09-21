@@ -2,10 +2,6 @@
 
 # Facilis
 
-class NullDevice(object):
-    def write(self,s):
-        pass
-
 class IsADir(Exception):
     def __init__(self, dname):
         self.dname = dname
@@ -23,3 +19,9 @@ class UnknownFile(Exception):
         self.fname = fname
     def __str__(self):
         return repr(self.fname)
+
+class PortInUse(Exception):
+    def __init__(self, port):
+        self.port = port
+    def __str__(self):
+        return repr(self.port)

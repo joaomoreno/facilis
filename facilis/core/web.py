@@ -52,6 +52,10 @@ class ServerHandler(Thread):
         self.port = port
     
     def run(self):
-        httpd = FacilisServer(('', self.port), HTTPRequestHandler, self.app)
-        httpd.serve_forever()
-        httpd.server_close()
+        try:
+            httpd = FacilisServer(('', self.port), HTTPRequestHandler, self.app)
+            httpd.serve_forever()
+            httpd.server_close()
+        except:
+            exit(-2)
+        

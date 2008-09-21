@@ -5,16 +5,37 @@
 from sys import stdin, stdout
 import os
 import re
-from .core.misc import IsADir
+from ..core.misc import IsADir, PortInUse
+from ..core.app import FacilisApp
 
-class CLI(object):
+def main():
+    app = FacilisCLI()
+    app.start()
+
+class FacilisCLI(object):
     """Command line interface for Facilis."""
     
-    def __init__(self, app, cin=stdin):
-        """Gives directions to the user and starts the interface."""        
+    def __init__(self, cin=stdin):
+        """Gives directions to the user and starts the interface."""
         print "\nFacilis - Send files and folders through HTTP without hassle"
-        self.app = app
+        self.app = FacilisApp()
         self.cin = cin
+    
+    def start(self):
+        """Starts the interface."""
+        try:
+            self.app.start()
+        except PortInUse, p:
+            print "Port already in use:", p
+            exit(-2)
+        else:
+            print "URL prefix:", self.app.getUrl()
+            print """Usage:
+- Write or paste the filename in the shell and the respective URL will be output to the screen and added to the clipboard.
+- If you feel a little lost, just enter 'help'.
+- To quit just enter 'quit' or press ^D.
+"""
+            self.__run()
     
     def __run(self):
         """This is the core of the interface."""
@@ -115,13 +136,3 @@ class CLI(object):
         
         else:
             print "Unkown option %s" % argv[1]
-    
-    def start(self):
-        """Starts the interface."""
-        print "URL prefix:", self.app.getUrl()
-        print """Usage:
-- Write or paste the filename in the shell and the respective URL will be output to the screen and added to the clipboard.
-- If you feel a little lost, just enter 'help'.
-- To quit just enter 'quit' or press ^D.
-"""
-        self.__run()
