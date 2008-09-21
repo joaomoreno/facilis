@@ -22,4 +22,3 @@ setup(
     license = "GPL",
     keywords = "facilis share http hassle"
 )
-
