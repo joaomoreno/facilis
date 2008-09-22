@@ -14,8 +14,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		DE23F6930E87C78800744250 /* yaml in Resources */ = {isa = PBXBuildFile; fileRef = DE23F6800E87C78800744250 /* yaml */; };
 		DED6E9FB0E86772400A4A2C9 /* facilis in Resources */ = {isa = PBXBuildFile; fileRef = DED6E9FA0E86772400A4A2C9 /* facilis */; };
-		DED6EA190E86782800A4A2C9 /* yaml in Resources */ = {isa = PBXBuildFile; fileRef = DED6EA060E86782800A4A2C9 /* yaml */; };
 		DED6EA310E869B2A00A4A2C9 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = DED6EA300E869B2A00A4A2C9 /* logo.icns */; };
 		DED6EBB40E86EF7C00A4A2C9 /* growl in Resources */ = {isa = PBXBuildFile; fileRef = DED6EBA90E86EF7C00A4A2C9 /* growl */; };
 /* End PBXBuildFile section */
@@ -34,8 +34,8 @@
 		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Facilis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facilis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE23F6800E87C78800744250 /* yaml */ = {isa = PBXFileReference; lastKnownFileType = folder; name = yaml; path = ../yaml; sourceTree = SOURCE_ROOT; };
 		DED6E9FA0E86772400A4A2C9 /* facilis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = facilis; path = ../facilis; sourceTree = SOURCE_ROOT; };
-		DED6EA060E86782800A4A2C9 /* yaml */ = {isa = PBXFileReference; lastKnownFileType = folder; path = yaml; sourceTree = "<group>"; };
 		DED6EA300E869B2A00A4A2C9 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = ../logo.icns; sourceTree = SOURCE_ROOT; };
 		DED6EBA90E86EF7C00A4A2C9 /* growl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = growl; path = ../growl; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		29B97314FDCFA39411CA2CEA /* Facilis */ = {
 			isa = PBXGroup;
 			children = (
+				DE23F6800E87C78800744250 /* yaml */,
 				DED6EBA90E86EF7C00A4A2C9 /* growl */,
 				DED6EA300E869B2A00A4A2C9 /* logo.icns */,
-				DED6EA060E86782800A4A2C9 /* yaml */,
 				DED6E9FA0E86772400A4A2C9 /* facilis */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -181,9 +181,9 @@
 				7790198F0C07548A00326F66 /* FacilisAppDelegate.py in Resources */,
 				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
 				DED6E9FB0E86772400A4A2C9 /* facilis in Resources */,
-				DED6EA190E86782800A4A2C9 /* yaml in Resources */,
 				DED6EA310E869B2A00A4A2C9 /* logo.icns in Resources */,
 				DED6EBB40E86EF7C00A4A2C9 /* growl in Resources */,
+				DE23F6930E87C78800744250 /* yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
