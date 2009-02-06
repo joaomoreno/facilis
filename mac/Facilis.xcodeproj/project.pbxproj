@@ -14,12 +14,27 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CF31D6E70F3C88AF0023A260 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */; };
+		CF31D6FC0F3C89B50023A260 /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */; };
+		CF3259030F3C8E1A0074E3DB /* facilis in Resources */ = {isa = PBXBuildFile; fileRef = CF3258E90F3C8E1A0074E3DB /* facilis */; };
+		CF9C604F0F3C864300312C2E /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = CF9C604E0F3C864300312C2E /* logo.icns */; };
 		DE23F6930E87C78800744250 /* yaml in Resources */ = {isa = PBXBuildFile; fileRef = DE23F6800E87C78800744250 /* yaml */; };
 		DE23F6960E883D8800744250 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DE23F6950E883D8800744250 /* Credits.rtf */; };
-		DED6E9FB0E86772400A4A2C9 /* facilis in Resources */ = {isa = PBXBuildFile; fileRef = DED6E9FA0E86772400A4A2C9 /* facilis */; };
-		DED6EA310E869B2A00A4A2C9 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = DED6EA300E869B2A00A4A2C9 /* logo.icns */; };
 		DED6EBB40E86EF7C00A4A2C9 /* growl in Resources */ = {isa = PBXBuildFile; fileRef = DED6EBA90E86EF7C00A4A2C9 /* growl */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF31D6FA0F3C89840023A260 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF31D6FC0F3C89B50023A260 /* Growl-WithInstaller.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -35,10 +50,11 @@
 		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Facilis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facilis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
+		CF3258E90F3C8E1A0074E3DB /* facilis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = facilis; path = ../facilis; sourceTree = SOURCE_ROOT; };
+		CF9C604E0F3C864300312C2E /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = ../artwork/logo.icns; sourceTree = SOURCE_ROOT; };
 		DE23F6800E87C78800744250 /* yaml */ = {isa = PBXFileReference; lastKnownFileType = folder; name = yaml; path = ../yaml; sourceTree = SOURCE_ROOT; };
 		DE23F6950E883D8800744250 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
-		DED6E9FA0E86772400A4A2C9 /* facilis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = facilis; path = ../facilis; sourceTree = SOURCE_ROOT; };
-		DED6EA300E869B2A00A4A2C9 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = ../logo.icns; sourceTree = SOURCE_ROOT; };
 		DED6EBA90E86EF7C00A4A2C9 /* growl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = growl; path = ../growl; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -49,6 +65,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				77631A270C06C501005415CB /* Python.framework in Frameworks */,
+				CF31D6E70F3C88AF0023A260 /* Growl-WithInstaller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,11 +110,12 @@
 		29B97314FDCFA39411CA2CEA /* Facilis */ = {
 			isa = PBXGroup;
 			children = (
+				CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */,
+				CF9C604E0F3C864300312C2E /* logo.icns */,
 				DE23F6950E883D8800744250 /* Credits.rtf */,
+				CF3258E90F3C8E1A0074E3DB /* facilis */,
 				DE23F6800E87C78800744250 /* yaml */,
 				DED6EBA90E86EF7C00A4A2C9 /* growl */,
-				DED6EA300E869B2A00A4A2C9 /* logo.icns */,
-				DED6E9FA0E86772400A4A2C9 /* facilis */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -146,6 +164,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				CF31D6FA0F3C89840023A260 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -183,11 +202,11 @@
 				77631A3F0C0748CF005415CB /* main.py in Resources */,
 				7790198F0C07548A00326F66 /* FacilisAppDelegate.py in Resources */,
 				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
-				DED6E9FB0E86772400A4A2C9 /* facilis in Resources */,
-				DED6EA310E869B2A00A4A2C9 /* logo.icns in Resources */,
 				DED6EBB40E86EF7C00A4A2C9 /* growl in Resources */,
 				DE23F6930E87C78800744250 /* yaml in Resources */,
 				DE23F6960E883D8800744250 /* Credits.rtf in Resources */,
+				CF9C604F0F3C864300312C2E /* logo.icns in Resources */,
+				CF3259030F3C8E1A0074E3DB /* facilis in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +247,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -246,6 +269,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Facilis_Prefix.pch;

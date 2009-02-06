@@ -8,7 +8,7 @@
 
 #import <Python/Python.h>
 #import <Cocoa/Cocoa.h>
-#import <Growl/Growl.h>
+//#import <Growl/Growl.h>
 
 int main(int argc, char *argv[])
 {

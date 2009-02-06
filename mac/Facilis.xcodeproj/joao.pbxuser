@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 291}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 94}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = CF9C5FF50F3C861B00312C2E /* Facilis */;
+		activeTarget = 8D1107260486CEB800E47090 /* Facilis */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Facilis */,
+		);
+		codeSenseManager = CF9C604C0F3C861D00312C2E /* Code sense */;
+		executables = (
+			CF9C5FF50F3C861B00312C2E /* Facilis */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 255626439;
+			PBXWorkspaceStateSaveDate = 255626439;
+		};
+		perUserProjectItems = {
+			CF31D6EB0F3C89840023A260 = CF31D6EB0F3C89840023A260 /* PBXTextBookmark */;
+			CF31D6F10F3C89840023A260 = CF31D6F10F3C89840023A260 /* PBXTextBookmark */;
+			CF31D6F20F3C89840023A260 = CF31D6F20F3C89840023A260 /* PBXTextBookmark */;
+			CF31D6F40F3C89840023A260 = CF31D6F40F3C89840023A260 /* PBXTextBookmark */;
+			CF31D6F50F3C89840023A260 = CF31D6F50F3C89840023A260 /* PBXTextBookmark */;
+			CF31D6F60F3C89840023A260 = CF31D6F60F3C89840023A260 /* PBXTextBookmark */;
+			CF31D6F70F3C89840023A260 = CF31D6F70F3C89840023A260 /* PBXTextBookmark */;
+			CF31D6F80F3C89840023A260 = CF31D6F80F3C89840023A260 /* PBXTextBookmark */;
+			CF31D7230F3C8C120023A260 = CF31D7230F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7240F3C8C120023A260 = CF31D7240F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7250F3C8C120023A260 = CF31D7250F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7260F3C8C120023A260 = CF31D7260F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7270F3C8C120023A260 = CF31D7270F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D72A0F3C8C120023A260 = CF31D72A0F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D72B0F3C8C120023A260 = CF31D72B0F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D72D0F3C8C120023A260 = CF31D72D0F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D72E0F3C8C120023A260 = CF31D72E0F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D72F0F3C8C120023A260 = CF31D72F0F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7300F3C8C120023A260 = CF31D7300F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7310F3C8C120023A260 = CF31D7310F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7320F3C8C120023A260 = CF31D7320F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7330F3C8C120023A260 = CF31D7330F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7340F3C8C120023A260 = CF31D7340F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7350F3C8C120023A260 = CF31D7350F3C8C120023A260 /* PBXTextBookmark */;
+			CF31D7470F3C8C9C0023A260 = CF31D7470F3C8C9C0023A260 /* XDModelBookmark */;
+			CF31D7490F3C8C9C0023A260 = CF31D7490F3C8C9C0023A260 /* PBXBookmark */;
+			CF31D74A0F3C8C9C0023A260 = CF31D74A0F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D74B0F3C8C9C0023A260 = CF31D74B0F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D74C0F3C8C9C0023A260 = CF31D74C0F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D74E0F3C8C9C0023A260 = CF31D74E0F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D7500F3C8C9C0023A260 = CF31D7500F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D7520F3C8C9C0023A260 = CF31D7520F3C8C9C0023A260 /* XDModelBookmark */;
+			CF31D7540F3C8C9C0023A260 = CF31D7540F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D7550F3C8C9C0023A260 = CF31D7550F3C8C9C0023A260 /* PBXBookmark */;
+			CF31D7560F3C8C9C0023A260 = CF31D7560F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D7570F3C8C9C0023A260 = CF31D7570F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D7580F3C8C9C0023A260 = CF31D7580F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF31D75A0F3C8C9C0023A260 = CF31D75A0F3C8C9C0023A260 /* PBXTextBookmark */;
+			CF3258B40F3C8CCB0074E3DB /* PBXTextBookmark */ = CF3258B40F3C8CCB0074E3DB /* PBXTextBookmark */;
+			CF3258E60F3C8DE50074E3DB /* PBXTextBookmark */ = CF3258E60F3C8DE50074E3DB /* PBXTextBookmark */;
+			CF3259070F3C8E320074E3DB /* PBXTextBookmark */ = CF3259070F3C8E320074E3DB /* PBXTextBookmark */;
+			CF32590C0F3C8E5E0074E3DB /* PBXTextBookmark */ = CF32590C0F3C8E5E0074E3DB /* PBXTextBookmark */;
+			CF32590D0F3C8E5E0074E3DB /* PBXTextBookmark */ = CF32590D0F3C8E5E0074E3DB /* PBXTextBookmark */;
+			CF32590E0F3C8E720074E3DB /* PBXTextBookmark */ = CF32590E0F3C8E720074E3DB /* PBXTextBookmark */;
+			CF32590F0F3C8E720074E3DB /* PBXTextBookmark */ = CF32590F0F3C8E720074E3DB /* PBXTextBookmark */;
+			CF3259100F3C8E720074E3DB /* PBXTextBookmark */ = CF3259100F3C8E720074E3DB /* PBXTextBookmark */;
+			CF3259110F3C8E720074E3DB /* PBXTextBookmark */ = CF3259110F3C8E720074E3DB /* PBXTextBookmark */;
+			CF3259120F3C8E720074E3DB /* PBXTextBookmark */ = CF3259120F3C8E720074E3DB /* PBXTextBookmark */;
+			CF3259130F3C8E720074E3DB /* PBXTextBookmark */ = CF3259130F3C8E720074E3DB /* PBXTextBookmark */;
+			CF3259140F3C8E720074E3DB /* PBXTextBookmark */ = CF3259140F3C8E720074E3DB /* PBXTextBookmark */;
+			CF9C605E0F3C875700312C2E = CF9C605E0F3C875700312C2E /* PBXBookmark */;
+			CF9C605F0F3C875700312C2E = CF9C605F0F3C875700312C2E /* PBXTextBookmark */;
+		};
+		sourceControlManager = CF9C604B0F3C861D00312C2E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1196, 728}}";
+			sepNavSelRange = "{183, 0}";
+			sepNavVisRange = "{0, 1026}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Facilis_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 428}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 145}";
+		};
+	};
+	77631A3E0C0748CF005415CB /* main.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 428}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 392}";
+		};
+	};
+	7790198E0C07548A00326F66 /* FacilisAppDelegate.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 750}}";
+			sepNavSelRange = "{356, 0}";
+			sepNavVisRange = "{121, 1413}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Facilis */ = {
+		activeExec = 0;
+		executables = (
+			CF9C5FF50F3C861B00312C2E /* Facilis */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 720}}";
+			sepNavSelRange = "{1050, 17}";
+			sepNavVisRange = "{764, 521}";
+			sepNavWindowFrame = "{{595, 78}, {750, 558}}";
+		};
+	};
+	CF31D6EB0F3C89840023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D6EC0F3C89840023A260 /* Growl.h */;
+		name = "Growl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 130;
+		vrLoc = 0;
+	};
+	CF31D6EC0F3C89840023A260 /* Growl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Growl.h;
+		path = "/System/Library/Frameworks/Growl-WithInstaller.framework/Headers/Growl.h";
+		sourceTree = "<absolute>";
+	};
+	CF31D6F10F3C89840023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 8";
+		rLen = 0;
+		rLoc = 130;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 0;
+	};
+	CF31D6F20F3C89840023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D6F30F3C89840023A260 /* Growl.h */;
+		name = "Growl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 130;
+		vrLoc = 0;
+	};
+	CF31D6F30F3C89840023A260 /* Growl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Growl.h;
+		path = "/System/Library/Frameworks/Growl-WithInstaller.framework/Headers/Growl.h";
+		sourceTree = "<absolute>";
+	};
+	CF31D6F40F3C89840023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* FacilisAppDelegate.py */;
+		name = "FacilisAppDelegate.py: 19";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 409;
+		vrLoc = 118;
+	};
+	CF31D6F50F3C89840023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Facilis_Prefix.pch */;
+		name = "Facilis_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	CF31D6F60F3C89840023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 8";
+		rLen = 0;
+		rLoc = 130;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 0;
+	};
+	CF31D6F70F3C89840023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	CF31D6F80F3C89840023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Facilis_Prefix.pch */;
+		name = "Facilis_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	CF31D7230F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Facilis_Prefix.pch */;
+		name = "Facilis_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	CF31D7240F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 0;
+	};
+	CF31D7250F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	CF31D7260F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* FacilisAppDelegate.py */;
+		name = "FacilisAppDelegate.py: 20";
+		rLen = 0;
+		rLoc = 356;
+		rType = 0;
+		vrLen = 1413;
+		vrLoc = 121;
+	};
+	CF31D7270F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D7280F3C8C120023A260 /* db.py */;
+		name = "db.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1125;
+		vrLoc = 0;
+	};
+	CF31D7280F3C8C120023A260 /* db.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = db.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/db.py";
+		sourceTree = "<absolute>";
+	};
+	CF31D72A0F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 0;
+	};
+	CF31D72B0F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D72C0F3C8C120023A260 /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CF31D72C0F3C8C120023A260 /* __init__.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = __init__.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/__init__.py";
+		sourceTree = "<absolute>";
+	};
+	CF31D72D0F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* FacilisAppDelegate.py */;
+		name = "FacilisAppDelegate.py: 19";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	CF31D72E0F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	CF31D72F0F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Facilis_Prefix.pch */;
+		name = "Facilis_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	CF31D7300F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 0;
+	};
+	CF31D7310F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Facilis_Prefix.pch */;
+		name = "Facilis_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	CF31D7320F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 0;
+	};
+	CF31D7330F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 77631A3E0C0748CF005415CB /* main.py */;
+		name = "main.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	CF31D7340F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7790198E0C07548A00326F66 /* FacilisAppDelegate.py */;
+		name = "FacilisAppDelegate.py: 20";
+		rLen = 0;
+		rLoc = 356;
+		rType = 0;
+		vrLen = 1413;
+		vrLoc = 121;
+	};
+	CF31D7350F3C8C120023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D7360F3C8C120023A260 /* db.py */;
+		name = "db.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1125;
+		vrLoc = 0;
+	};
+	CF31D7360F3C8C120023A260 /* db.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = db.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/db.py";
+		sourceTree = "<absolute>";
+	};
+	CF31D7470F3C8C9C0023A260 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = CF31D7480F3C8C9C0023A260 /* gui_1.xcclassmodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	CF31D7480F3C8C9C0023A260 /* gui_1.xcclassmodel */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file;
+		path = gui_1.xcclassmodel;
+		sourceTree = "<group>";
+	};
+	CF31D7490F3C8C9C0023A260 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CF9C604E0F3C864300312C2E /* logo.icns */;
+	};
+	CF31D74A0F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE23F6950E883D8800744250 /* Credits.rtf */;
+		name = "Credits.rtf: 1";
+		rLen = 0;
+		rLoc = 31;
+		rType = 0;
+		vrLen = 31;
+		vrLoc = 0;
+	};
+	CF31D74B0F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D72C0F3C8C120023A260 /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CF31D74C0F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D74D0F3C8C9C0023A260 /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CF31D74D0F3C8C9C0023A260 /* __init__.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = __init__.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/__init__.py";
+		sourceTree = "<absolute>";
+	};
+	CF31D74E0F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D74F0F3C8C9C0023A260 /* app.py */;
+		name = "app.py: 23";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 1030;
+	};
+	CF31D74F0F3C8C9C0023A260 /* app.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = app.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/app.py";
+		sourceTree = "<absolute>";
+	};
+	CF31D7500F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D7510F3C8C9C0023A260 /* app.py */;
+		name = "app.py: 23";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 1030;
+	};
+	CF31D7510F3C8C9C0023A260 /* app.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = app.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/app.py";
+		sourceTree = "<absolute>";
+	};
+	CF31D7520F3C8C9C0023A260 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = CF31D7530F3C8C9C0023A260 /* gui_1.xcclassmodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	CF31D7530F3C8C9C0023A260 /* gui_1.xcclassmodel */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file;
+		path = gui_1.xcclassmodel;
+		sourceTree = "<group>";
+	};
+	CF31D7540F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE23F6950E883D8800744250 /* Credits.rtf */;
+		name = "Credits.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 31;
+		vrLoc = 0;
+	};
+	CF31D7550F3C8C9C0023A260 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CF9C604E0F3C864300312C2E /* logo.icns */;
+	};
+	CF31D7560F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE23F6950E883D8800744250 /* Credits.rtf */;
+		name = "Credits.rtf: 1";
+		rLen = 0;
+		rLoc = 31;
+		rType = 0;
+		vrLen = 31;
+		vrLoc = 0;
+	};
+	CF31D7570F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D72C0F3C8C120023A260 /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CF31D7580F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D7590F3C8C9C0023A260 /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CF31D7590F3C8C9C0023A260 /* __init__.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = __init__.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/__init__.py";
+		sourceTree = "<absolute>";
+	};
+	CF31D75A0F3C8C9C0023A260 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D75B0F3C8C9C0023A260 /* app.py */;
+		name = "app.py: 23";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 1030;
+	};
+	CF31D75B0F3C8C9C0023A260 /* app.py */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.python;
+		name = app.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/app.py";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2160}}";
+			sepNavSelRange = "{524, 0}";
+			sepNavVisRange = "{1030, 358}";
+		};
+	};
+	CF3258B40F3C8CCB0074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF31D75B0F3C8C9C0023A260 /* app.py */;
+		name = "app.py: 23";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 1030;
+	};
+	CF3258BF0F3C8D960074E3DB /* app.py */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text.script.python;
+		name = app.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/app.py";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2160}}";
+			sepNavSelRange = "{524, 0}";
+			sepNavVisRange = "{1030, 358}";
+		};
+	};
+	CF3258E60F3C8DE50074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF3258BF0F3C8D960074E3DB /* app.py */;
+		name = "app.py: 23";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 1030;
+	};
+	CF3259070F3C8E320074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF3259080F3C8E320074E3DB /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CF3259080F3C8E320074E3DB /* __init__.py */ = {
+		isa = PBXFileReference;
+		name = __init__.py;
+		path = "/Users/joao/Desktop/facilis-dev/facilis/core/__init__.py";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 167}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	CF32590C0F3C8E5E0074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Processing /Users/joao/Desktop/facilis-dev/mac/build/Release/Facilis.app/Contents/Info.plist Info.plist";
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		rLen = 0;
+		rLoc = 0;
+		rType = 1;
+	};
+	CF32590D0F3C8E5E0074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	CF32590E0F3C8E720074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF3259080F3C8E320074E3DB /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CF32590F0F3C8E720074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 94;
+		vrLoc = 0;
+	};
+	CF3259100F3C8E720074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 530;
+	};
+	CF3259110F3C8E720074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF3259080F3C8E320074E3DB /* __init__.py */;
+		name = "__init__.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	CF3259120F3C8E720074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	CF3259130F3C8E720074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 94;
+		vrLoc = 0;
+	};
+	CF3259140F3C8E720074E3DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 38";
+		rLen = 17;
+		rLoc = 1050;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 764;
+	};
+	CF9C5FF50F3C861B00312C2E /* Facilis */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Facilis;
+		sourceDirectories = (
+		);
+	};
+	CF9C604B0F3C861D00312C2E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	CF9C604C0F3C861D00312C2E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CF9C604E0F3C864300312C2E /* logo.icns */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	CF9C605E0F3C875700312C2E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CF9C604E0F3C864300312C2E /* logo.icns */;
+	};
+	CF9C605F0F3C875700312C2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE23F6950E883D8800744250 /* Credits.rtf */;
+		name = "Credits.rtf: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 31;
+		vrLoc = 0;
+	};
+}

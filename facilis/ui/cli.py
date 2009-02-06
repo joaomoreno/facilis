@@ -5,8 +5,8 @@
 from sys import stdin, stdout
 import os
 import re
-from ..core.misc import IsADir, PortInUse
-from ..core.app import FacilisApp
+from facilis.core.misc import IsADir, PortInUse
+from facilis.core.app import FacilisApp
 
 def main():
     app = FacilisCLI()

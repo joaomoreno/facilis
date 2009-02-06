@@ -30,19 +30,20 @@ class FacilisAppDelegate(NSObject):
         NSLog("Application loaded")
     
     def application_openFile_(self, sender, fname):
+        fname = fname.encode("utf-8")
         name = split(fname)[1]
         try:
             url = self.app.addFile(fname)
         except IOError:
-            self.notifier.notify(ERROR, "Error", "Something bad happened. Try again.")
+            self.notifier.notify("Error", "Error", "Something bad happened. Try again.")
         except IsADir:
-            self.notifier.notify(ISDIR, "Error", name + " is a directory.")
+            self.notifier.notify("IsDir", "Error", name + " is a directory.")
         else:
-            self.notifier.notify(FILEADDED, "File added to Facilis", "\"" + name + "\" was just added to Facilis, its URL was copied to the pasteboard. Use Cmd-V to paste it.")
+            self.notifier.notify("FileAdded", u"File added to Facilis", u"\"" + name + u"\" was just added to Facilis; its URL was copied to the pasteboard. You can now paste it anywhere.")
 
     def start(self):
         self.app = FacilisApp()
         self.app.start()
         self.notifier = Growl.GrowlNotifier("Facilis", [FILEADDED, ISDIR, ERROR, STARTUP])
         self.notifier.register()
-        self.notifier.notify(STARTUP, "Facilis", "Facilis just started on port " + str(self.app.config['port']))
+        self.notifier.notify("Startup", "Facilis", "Facilis just started on port " + str(self.app.config['port']))

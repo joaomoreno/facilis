@@ -4,7 +4,7 @@
 # Facilis
 
 from setuptools import setup, find_packages
-import py2app
+#import py2app
 
 setup(
     name = "Facilis",
@@ -13,7 +13,7 @@ setup(
     install_requires = ['PyYaml'],
     entry_points = {
         'console_scripts': [
-            'facilis = facilis.gui.cli:main'
+            'facilis = facilis.ui.cli:main'
         ]
     },
     author = "João Moreno",

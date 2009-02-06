@@ -2,8 +2,8 @@
 
 # Facilis
 
-from ..core.misc import IsADir, PortInUse
-from ..core.app import FacilisApp
+from facilis.core.misc import IsADir, PortInUse
+from facilis.core.app import FacilisApp
 
 def main():
     app = FacilisMac()
