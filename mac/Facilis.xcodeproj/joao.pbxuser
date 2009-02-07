@@ -131,6 +131,10 @@
 			CF2314F00F3DE9950032776B /* PBXTextBookmark */ = CF2314F00F3DE9950032776B /* PBXTextBookmark */;
 			CF2314F10F3DE9B60032776B /* PBXTextBookmark */ = CF2314F10F3DE9B60032776B /* PBXTextBookmark */;
 			CF2314F20F3DE9EE0032776B /* PBXTextBookmark */ = CF2314F20F3DE9EE0032776B /* PBXTextBookmark */;
+			CF2314F40F3DF3F60032776B /* PBXTextBookmark */ = CF2314F40F3DF3F60032776B /* PBXTextBookmark */;
+			CF2314F50F3DF3F60032776B /* PBXTextBookmark */ = CF2314F50F3DF3F60032776B /* PBXTextBookmark */;
+			CF2314F60F3DF3F60032776B /* PBXTextBookmark */ = CF2314F60F3DF3F60032776B /* PBXTextBookmark */;
+			CF2314F70F3DF3F60032776B /* PBXTextBookmark */ = CF2314F70F3DF3F60032776B /* PBXTextBookmark */;
 			CF3259370F3CCBA40074E3DB = CF3259370F3CCBA40074E3DB /* PBXTextBookmark */;
 			CF3259390F3CCBA40074E3DB = CF3259390F3CCBA40074E3DB /* PBXTextBookmark */;
 			CF32593D0F3CCBA40074E3DB = CF32593D0F3CCBA40074E3DB /* PBXTextBookmark */;
@@ -655,6 +659,46 @@
 		vrLen = 1207;
 		vrLoc = 0;
 	};
+	CF2314F40F3DF3F60032776B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF9981930F3D101D00EF4641 /* 404.html */;
+		name = "404.html: 15";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 0;
+	};
+	CF2314F50F3DF3F60032776B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF3259270F3CC15B0074E3DB /* setup.py */;
+		name = "setup.py: 13";
+		rLen = 0;
+		rLoc = 250;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 0;
+	};
+	CF2314F60F3DF3F60032776B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF9981930F3D101D00EF4641 /* 404.html */;
+		name = "404.html: 15";
+		rLen = 0;
+		rLoc = 709;
+		rType = 0;
+		vrLen = 1207;
+		vrLoc = 0;
+	};
+	CF2314F70F3DF3F60032776B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF3259270F3CC15B0074E3DB /* setup.py */;
+		name = "setup.py: 16";
+		rLen = 0;
+		rLoc = 312;
+		rType = 0;
+		vrLen = 654;
+		vrLoc = 0;
+	};
 	CF3259240F3CC15B0074E3DB /* CHANGELOG */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 599}}";
@@ -679,8 +723,8 @@
 	CF3259270F3CC15B0074E3DB /* setup.py */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 599}}";
-			sepNavSelRange = "{234, 0}";
-			sepNavVisRange = "{0, 638}";
+			sepNavSelRange = "{312, 0}";
+			sepNavVisRange = "{0, 654}";
 		};
 	};
 	CF3259370F3CCBA40074E3DB /* PBXTextBookmark */ = {
@@ -797,7 +841,7 @@
 		fRef = CF3259270F3CC15B0074E3DB /* setup.py */;
 		name = "setup.py: 13";
 		rLen = 0;
-		rLoc = 234;
+		rLoc = 250;
 		rType = 0;
 		vrLen = 638;
 		vrLoc = 0;
@@ -857,7 +901,7 @@
 		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 599}}";
-			sepNavSelRange = "{0, 1207}";
+			sepNavSelRange = "{709, 0}";
 			sepNavVisRange = "{0, 1207}";
 		};
 	};

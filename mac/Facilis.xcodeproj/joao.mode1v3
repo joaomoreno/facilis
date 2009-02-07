@@ -267,18 +267,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>CF3258E90F3C8E1A0074E3DB</string>
-								<string>CF23149F0F3DE7C60032776B</string>
-								<string>CF2314AC0F3DE7C60032776B</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>21</integer>
-									<integer>10</integer>
-									<integer>7</integer>
+									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -320,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>404.html</string>
+								<string>setup.py</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>404.html</string>
+										<string>setup.py</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CF2314F20F3DE9EE0032776B</string>
+										<string>CF2314F70F3DF3F60032776B</string>
 										<key>history</key>
 										<array>
 											<string>CF1F63E60F3CF81C003FAF94</string>
@@ -350,12 +344,12 @@
 											<string>CF1F63FA0F3CF81C003FAF94</string>
 											<string>CF1F63FB0F3CF81C003FAF94</string>
 											<string>CF1F63FC0F3CF81C003FAF94</string>
-											<string>CF9981830F3D101D00EF4641</string>
 											<string>CF9981840F3D101D00EF4641</string>
 											<string>CF9981870F3D101D00EF4641</string>
 											<string>CF2314E60F3DE7DE0032776B</string>
 											<string>CF2314E70F3DE7DE0032776B</string>
-											<string>CF9981850F3D101D00EF4641</string>
+											<string>CF2314F40F3DF3F60032776B</string>
+											<string>CF2314F50F3DF3F60032776B</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -381,6 +375,7 @@
 											<string>CF9981920F3D101D00EF4641</string>
 											<string>CF2314E90F3DE7DE0032776B</string>
 											<string>CF2314EA0F3DE7DE0032776B</string>
+											<string>CF2314F60F3DF3F60032776B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -574,6 +569,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>CF9C60590F3C875400312C2E</string>
 		<string>/Users/joao/Desktop/facilis-dev/mac/Facilis.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -654,7 +650,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CF9C60590F3C875400312C2E</string>
-				<string>CF9981970F3D101D00EF4641</string>
+				<string>CF2314F80F3DF3F60032776B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
