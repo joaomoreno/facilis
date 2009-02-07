@@ -1,10 +1,9 @@
-#
-#  main.py
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 #  Facilis
-#
-#  Created by Joao Moreno on 9/21/08.
-#  Copyright 2008. All rights reserved.
-#
+#  João Moreno <http://www.joaomoreno.com/>
+#  GPLv3
 
 #import modules required by application
 import objc

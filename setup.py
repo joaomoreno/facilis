@@ -1,15 +1,19 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Facilis
+#  Facilis
+#  João Moreno <http://www.joaomoreno.com/>
+#  GPLv3
 
 from setuptools import setup, find_packages
-#import py2app
 
 setup(
     name = "Facilis",
     version = "0.1",
     packages = find_packages(),
+    package_data = {
+        'facilis':['resources/*']
+    },
     install_requires = ['PyYaml'],
     entry_points = {
         'console_scripts': [

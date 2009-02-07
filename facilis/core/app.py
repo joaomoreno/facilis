@@ -1,6 +1,9 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Facilis
+#  Facilis
+#  João Moreno <http://www.joaomoreno.com/>
+#  GPLv3
 
 import os, yaml, sys, clipboard
 from urllib2 import urlopen, HTTPError
@@ -8,23 +11,32 @@ from re import search
 from web import ServerHandler
 from db import FilesDatabase
 from misc import PortInUse
+from threading import Event, Thread
 
 class FacilisApp(object):
-    
     def __init__(self):
         """Load options and start app."""
         
         # Load configuration stuff
         self.configFile = self.__configFile()
         self.__loadConfig()
-        self.ip = self.__getExternalIP()
-        self.db = FilesDatabase()
         
+        self.updateIP()
+        self.ip_monitor = IPMonitor(self, 5 * 60)
+        self.ip_monitor.start()
+        
+        self.db = FilesDatabase()
         # Load server
         self.server = ServerHandler(self, self.config['port'])
-        
-        # Load interface
-        #self.interface = Gui(self)
+    
+    def updateIP(self):
+        """Stores the outer IP of this network / machine."""
+        try:
+            ip = urlopen('http://checkip.dyndns.org/').read()
+            self.ip = search(r'(\d+.\d+.\d+.\d+)', ip).group()
+        except HTTPError:
+            import socket
+            self.ip = socket.gethostbyname(socket.gethostname())
     
     def start(self):
         """Starts the application."""
@@ -37,6 +49,7 @@ class FacilisApp(object):
     
     def kill(self):
         """Called by the interface to kill the application."""
+        self.ip_monitor.kill()
         exit(0)
     
     def __loadConfig(self):
@@ -70,41 +83,32 @@ class FacilisApp(object):
     def __userDir(self):
         """Returns the user configuration directory. Adapted from http://tinyurl.com/6hk5vz."""
         try:
-	        from win32com.shell import shell, shellcon
+            from win32com.shell import shell, shellcon
         except ImportError:
-	        shell = None
+            shell = None
         try:
             import _winreg
         except ImportError:
-	        _winreg = None
+            _winreg = None
         
         if shell:
-    		return shell.SHGetFolderPath(0, shellcon.CSIDL_APPDATA, 0, 0) + os.sep + "Facilis"
-    	if _winreg:
-    		k = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER,r"Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders")
-    		try:
-    			return _winreg.QueryValueEx( k, "AppData" )[0] + os.sep + "Facilis"
-    		finally:
-    			_winreg.CloseKey( k )
-    	
-    	for name in ['appdata', 'home']:
-    		if os.environ.has_key( name ):
-    			return os.environ[name] + os.sep + ".facilis"
-    	
-    	possible = os.path.abspath(os.path.expanduser( '~/' ))
-    	if os.path.exists( possible ):
-    		return possible + os.sep + ".facilis"
-    	
-    	raise OSError( "Unable to determine user's application-data directory")
-    
-    def __getExternalIP(self):
-        """Returns the outer IP of this network / machine."""
-        try:
-            ip = urlopen('http://checkip.dyndns.org/').read()
-            return search(r'(\d+.\d+.\d+.\d+)', ip).group()
-        except HTTPError:
-            import socket
-            return socket.gethostbyname(socket.gethostname())
+            return shell.SHGetFolderPath(0, shellcon.CSIDL_APPDATA, 0, 0) + os.sep + "Facilis"
+        if _winreg:
+            k = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER,r"Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders")
+            try:
+                return _winreg.QueryValueEx( k, "AppData" )[0] + os.sep + "Facilis"
+            finally:
+                _winreg.CloseKey( k )
+        
+        for name in ['appdata', 'home']:
+            if os.environ.has_key( name ):
+                return os.environ[name] + os.sep + ".facilis"
+        
+        possible = os.path.abspath(os.path.expanduser( '~/' ))
+        if os.path.exists( possible ):
+            return possible + os.sep + ".facilis"
+        
+        raise OSError( "Unable to determine user's application-data directory")
     
     def setPort(self,p):
         self.config['port'] = p
@@ -128,5 +132,26 @@ class FacilisApp(object):
     def getFile(self, url):
         return self.db.getFile(url)
     
-    def getUrl(self, url=''):
-        return "http://%s:%i/%s\n" % (self.config['domain'] if self.config['use_domain'] else self.ip, self.config['port'], url)
+    def getUrl(self, hash=''):
+        return "http://%s:%i/%s\n" % (self.config['domain'] if self.config['use_domain'] else self.ip, self.config['port'], hash)
+
+class IPMonitor(object):
+    def __init__(self, app, interval):
+        self.app = app
+        self.e = Event()
+        self.t = Thread(target=self.__repeat)
+        self.i = interval
+
+    def start(self):
+        self.t.start()
+    
+    def kill(self):
+        self.e.set()
+        self.t.join()
+    
+    def __repeat(self):
+        while True:
+            self.e.wait(self.i)
+            if self.e.isSet():
+                break
+            self.app.updateIP()

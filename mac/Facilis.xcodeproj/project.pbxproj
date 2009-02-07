@@ -17,6 +17,10 @@
 		CF31D6E70F3C88AF0023A260 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */; };
 		CF31D6FC0F3C89B50023A260 /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */; };
 		CF3259030F3C8E1A0074E3DB /* facilis in Resources */ = {isa = PBXBuildFile; fileRef = CF3258E90F3C8E1A0074E3DB /* facilis */; };
+		CF3259280F3CC15B0074E3DB /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = CF3259240F3CC15B0074E3DB /* CHANGELOG */; };
+		CF3259290F3CC15B0074E3DB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CF3259250F3CC15B0074E3DB /* LICENSE */; };
+		CF32592A0F3CC15B0074E3DB /* README in Resources */ = {isa = PBXBuildFile; fileRef = CF3259260F3CC15B0074E3DB /* README */; };
+		CF32592B0F3CC15B0074E3DB /* setup.py in Resources */ = {isa = PBXBuildFile; fileRef = CF3259270F3CC15B0074E3DB /* setup.py */; };
 		CF9C604F0F3C864300312C2E /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = CF9C604E0F3C864300312C2E /* logo.icns */; };
 		DE23F6930E87C78800744250 /* yaml in Resources */ = {isa = PBXBuildFile; fileRef = DE23F6800E87C78800744250 /* yaml */; };
 		DE23F6960E883D8800744250 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DE23F6950E883D8800744250 /* Credits.rtf */; };
@@ -52,6 +56,10 @@
 		8D1107320486CEB800E47090 /* Facilis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facilis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
 		CF3258E90F3C8E1A0074E3DB /* facilis */ = {isa = PBXFileReference; lastKnownFileType = folder; name = facilis; path = ../facilis; sourceTree = SOURCE_ROOT; };
+		CF3259240F3CC15B0074E3DB /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGELOG; path = ../CHANGELOG; sourceTree = SOURCE_ROOT; };
+		CF3259250F3CC15B0074E3DB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = SOURCE_ROOT; };
+		CF3259260F3CC15B0074E3DB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = SOURCE_ROOT; };
+		CF3259270F3CC15B0074E3DB /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = setup.py; path = ../setup.py; sourceTree = SOURCE_ROOT; };
 		CF9C604E0F3C864300312C2E /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = ../artwork/logo.icns; sourceTree = SOURCE_ROOT; };
 		DE23F6800E87C78800744250 /* yaml */ = {isa = PBXFileReference; lastKnownFileType = folder; name = yaml; path = ../yaml; sourceTree = SOURCE_ROOT; };
 		DE23F6950E883D8800744250 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
@@ -83,6 +91,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */,
 				77631A260C06C501005415CB /* Python.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
@@ -110,7 +119,10 @@
 		29B97314FDCFA39411CA2CEA /* Facilis */ = {
 			isa = PBXGroup;
 			children = (
-				CF31D6E60F3C88AF0023A260 /* Growl-WithInstaller.framework */,
+				CF3259240F3CC15B0074E3DB /* CHANGELOG */,
+				CF3259250F3CC15B0074E3DB /* LICENSE */,
+				CF3259260F3CC15B0074E3DB /* README */,
+				CF3259270F3CC15B0074E3DB /* setup.py */,
 				CF9C604E0F3C864300312C2E /* logo.icns */,
 				DE23F6950E883D8800744250 /* Credits.rtf */,
 				CF3258E90F3C8E1A0074E3DB /* facilis */,
@@ -207,6 +219,10 @@
 				DE23F6960E883D8800744250 /* Credits.rtf in Resources */,
 				CF9C604F0F3C864300312C2E /* logo.icns in Resources */,
 				CF3259030F3C8E1A0074E3DB /* facilis in Resources */,
+				CF3259280F3CC15B0074E3DB /* CHANGELOG in Resources */,
+				CF3259290F3CC15B0074E3DB /* LICENSE in Resources */,
+				CF32592A0F3CC15B0074E3DB /* README in Resources */,
+				CF32592B0F3CC15B0074E3DB /* setup.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

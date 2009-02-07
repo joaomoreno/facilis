@@ -1,6 +1,9 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Facilis
+#  Facilis
+#  João Moreno <http://www.joaomoreno.com/>
+#  GPLv3
 
 class IsADir(Exception):
     def __init__(self, dname):

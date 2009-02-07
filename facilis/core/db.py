@@ -1,6 +1,9 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Facilis
+#  Facilis
+#  João Moreno <http://www.joaomoreno.com/>
+#  GPLv3
 
 from hashlib import sha1
 from time import time
@@ -9,7 +12,6 @@ import os
 from misc import UnknownURL, UnknownFile, IsADir
 
 class FilesDatabase(object):
-    
     def __init__(self):
         self.url2file = {}
         self.file2url = {}

@@ -1,14 +1,9 @@
-//
-//  main.m
 //  Facilis
-//
-//  Created by João Moreno on 9/21/08.
-//  Copyright __MyCompanyName__ 2008. All rights reserved.
-//
+//  João Moreno <http://www.joaomoreno.com/>
+//  GPLv3
 
 #import <Python/Python.h>
 #import <Cocoa/Cocoa.h>
-//#import <Growl/Growl.h>
 
 int main(int argc, char *argv[])
 {

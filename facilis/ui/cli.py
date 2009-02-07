@@ -1,6 +1,9 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Facilis
+#  Facilis
+#  João Moreno <http://www.joaomoreno.com/>
+#  GPLv3
 
 from sys import stdin, stdout
 import os
